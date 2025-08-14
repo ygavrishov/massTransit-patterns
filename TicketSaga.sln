@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestrator", "Orchestrator\Orchestrator.csproj", "{192D5961-E1A6-4F0A-A292-57983AD08E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketOffice.API", "TicketOffice.API\TicketOffice.API.csproj", "{9685644F-E653-412F-BFF5-C049B4234993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketOffice.Contracts", "TicketOffice.Contracts\TicketOffice.Contracts.csproj", "{0031189B-EE6F-4ECC-9320-258FD7108F02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192D5961-E1A6-4F0A-A292-57983AD08E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192D5961-E1A6-4F0A-A292-57983AD08E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192D5961-E1A6-4F0A-A292-57983AD08E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192D5961-E1A6-4F0A-A292-57983AD08E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9685644F-E653-412F-BFF5-C049B4234993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9685644F-E653-412F-BFF5-C049B4234993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9685644F-E653-412F-BFF5-C049B4234993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9685644F-E653-412F-BFF5-C049B4234993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0031189B-EE6F-4ECC-9320-258FD7108F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0031189B-EE6F-4ECC-9320-258FD7108F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0031189B-EE6F-4ECC-9320-258FD7108F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0031189B-EE6F-4ECC-9320-258FD7108F02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AA9DEEA-BB84-411A-9A43-91416F2A5BBE}
+	EndGlobalSection
+EndGlobal
