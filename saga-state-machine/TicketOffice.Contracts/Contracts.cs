@@ -1,6 +1,6 @@
 ﻿namespace TicketOffice.Contracts;
 
-// Requests
+// Commands
 public record PurchaseTicketCommand(Guid OrderId, int RowNumber, int SeatNumber);
 public record ReserveSeatCommand(Guid OrderId, int RowNumber, int SeatNumber);
 public record ReleaseSeatCommand(Guid OrderId);

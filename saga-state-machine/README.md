@@ -45,6 +45,24 @@ sequenceDiagram
     end
 ```
 
+State diagram for the demo:
+```mermaid
+stateDiagram
+    [*] --> ReservationRequested : PurchaseTicketCommand
+    ReservationRequested --> Reserved : SeatReserved
+    ReservationRequested --> Failed : SeatReservationFailed
+
+    Reserved --> Paid : PaymentProcessed
+    Reserved --> Failed : PaymentFailed
+
+    Paid --> Final : TicketGenerated
+    Paid --> Failed : TicketGenerationFailed
+
+    Failed --> [*]
+    Final --> [*]
+
+```
+
 ## Technologies
 
 The solution uses RabbitMQ as a transport, saga state is stored in PostgreSQL. All services are written in .NET 9 with MassTransit as a out-of-the-box implementation of Saga Pattern.
